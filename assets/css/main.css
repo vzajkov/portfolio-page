@@ -34,13 +34,26 @@
 
 	.logo-list li {
 	display: inline-block;
+	font-size: 15px;
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	}
+	.logo-list li i {
 	font-size: 75px;
 	}
-
 	.redux-logo, .ruby-logo, .rails-logo, .postgres-logo, .html5-logo,
 	.css3-logo, .git-logo, .react-logo, .javascript-logo, .redux- {
 		height: 70px;
 		width: 70px;
+	}
+
+	#skills-title {
+		padding-bottom: 30px;
+	}
+
+	#skills-list-wrapper {
+		width:
 	}
 
 	ol, ul {
@@ -1923,7 +1936,6 @@
 			position: relative;
 			top: -1em;
 			color: #888888;
-			text-transform: uppercase;
 			letter-spacing: 0.075em;
 		}
 
@@ -1962,10 +1974,9 @@
 			header.major p {
 				top: 0;
 				margin: 1.5em 0 0 0;
-				padding: 1.5em 1.5em 0 1.5em;
+				padding: 0em 1.5em 0 1.5em;
 				font-size: 1.5em;
 				line-height: 1.75em;
-				border-top: solid 1px rgba(224, 224, 224, 0.75);
 				display: inline-block;
 			}
 
