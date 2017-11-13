@@ -2241,6 +2241,7 @@
 
 	ul.icons {
 		cursor: default;
+		margin-top: 30px;
 	}
 
 		ul.icons li {
@@ -2530,6 +2531,7 @@
 		.feature.long .content {
 			padding-top: 0;
 		}
+
 
 /* Header */
 
